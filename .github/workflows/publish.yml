@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: foo
-        uses: bzlmodrio/vendor-json-repo/.github/actions/add_vendordep@ef8ce907fbdb333bdfc4768aab0830b72608846c
+        uses: bzlmodrio/vendor-json-repo/.github/actions/add_vendordep@7e61df9db0e6f9cbd0945e67df52f40f367ac804
         with:
           token: ${{ secrets.VENDOR_DEPLOY }}
           vendordep_file: ../rev.json
